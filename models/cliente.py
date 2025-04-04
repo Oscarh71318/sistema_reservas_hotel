@@ -6,4 +6,5 @@ class Cliente:
         self.telefono = telefono
 
     def mostrar_info(self):
+
         print(f"Cliente: {self.nombre} | Documento: {self.documento} | Correo: {self.correo} | Teléfono: {self.telefono}")

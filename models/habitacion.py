@@ -6,5 +6,6 @@ class Habitacion:
         self.disponible = disponible
 
     def mostrar_info(self):
+
         estado = "Disponible" if self.disponible else "Ocupada"
         print(f"Habitación {self.numero} | Tipo: {self.tipo} | Precio: ${self.precio} | Estado: {estado}")
