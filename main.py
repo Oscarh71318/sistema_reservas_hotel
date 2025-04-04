@@ -1,8 +1,8 @@
 from models.habitacion import Habitacion
 
 # crear habitaciones
-h1 = Habitacion(numero=101, tipo="Doble", precio=80000,disponible=False)
-h2 = Habitacion(numero=202, tipo="sencilla", precio=50000,disponible=False)
+h1 = Habitacion(numero=101, tipo="Doble", precio=80000,disponible=True)
+h2 = Habitacion(numero=202, tipo="sencilla", precio=50000,disponible=True)
 
 #mostrar informacion de habitaciones
 h1.mostrar_info()

@@ -6,6 +6,7 @@ class Reserva:
         self.habitacion = habitacion
         self.fecha_inicio = fecha_inicio
         self.fecha_fin = fecha_fin
+        self.habitacion.disponible = False
 
     def mostrar_info(self):
         print("=== RESERVA ===")
